@@ -12,6 +12,10 @@ var WeatherMessage = require("WeatherMessage");
 
 // ReactDOM.render receives two args: what to render and where to stick it.
 
+// Load foundation
+require("style!css!foundation-sites/dist/foundation.min.css");
+$(document).foundation();
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
