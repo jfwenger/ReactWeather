@@ -20,7 +20,7 @@ render: function() {
         <input type="text" ref="location" placeholder="Enter City" />
         </div>
         <div>
-          <button>Check Weather</button>
+          <button className="button expanded hollow">Check Weather</button>
         </div>
         </form>
       </div>
